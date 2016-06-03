@@ -1,0 +1,204 @@
+/*
+Theme Name: allegiantlogistics
+Theme URI: http://
+Author: Noel Flores
+Author URI: http://topfloormarketing.net/
+Description: 
+Version: 1.0
+*/
+
+
+/*******************************
+** TYPOGRAPHY ******************
+*******************************/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+
+/*******************************
+** RESET ***********************
+*******************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a,
+a:visited,
+a:focus,
+a:active,
+a:hover {
+	color: #3B739F;
+	text-decoration: none;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+h2{
+	margin: 0 0 20px;
+}
+.required{
+  color: #a94442;
+}
+
+
+/*******************************
+** HEADER **********************
+*******************************/
+header{
+	background-color: #3B739F;
+	color: #fff;
+	padding: 10px 0;
+}
+header .call a{
+	display: block;
+  color: #fff;
+  font-size: 1.8em;
+  text-align: right;
+  margin-top: 15px;
+}
+
+
+/*******************************
+** MAIN ************************
+*******************************/
+#main{
+	margin: 20px 0;
+}
+#main .why #stats ul{
+	padding: 10px 0;
+	margin: 0;
+	list-style: none;
+}
+#main .why #stats ul > li{
+	position: relative;
+	padding: 15px 0 15px 60px;
+	font-size: 1.3em;
+	min-height: 80px;
+}
+#main .why #stats ul > li:before{
+	position: absolute;
+	top: 50%;
+	left: 0;
+	content: '\f087';
+	font: normal normal normal 14px/1 FontAwesome;
+	display: block;
+	width: 50px;
+	background-color: #3B739F;
+	color: #ffffff;
+	text-align: center;
+	padding: 11.5px 0;
+	font-size: 1.5em;
+	border-radius: 50%;
+	margin-top: -25px;
+}
+#main .services h2{
+	text-align: center;
+	color: #3B739F;
+}
+#main .services .thumb{
+	position: relative;
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+}
+#main .services .thumb .title{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 5px 2px;
+	background-color: rgba(59, 115, 159, .7);
+	color: #ffffff;
+	text-align: center;
+}
+#main .services .holder{
+	background-color: #f4f4f4;
+	padding: 10px;
+	min-height: 100px;
+	margin-bottom: 20px;
+	color: #666666;
+	font-weight: bold;
+}
+#main .quote .wpcf7{
+	background-color: rgba(255,255,255,.95);
+	padding: 20px;
+	border: 3px solid rgba(59, 115, 159,.95);
+	margin-bottom: 40px;
+}
+#main .quote .wpcf7 form{}
+#main .quote .wpcf7 form .form-group{}
+#main .quote .wpcf7 form .form-group label{}
+#main .quote .wpcf7 form .form-group > .form-control{
+	border-width: 0 0 1px 0;
+	border-color: #236293;
+	border-style: solid;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: none;
+	color: #B56F11;
+	font-weight: bold;
+	padding: 6px;
+}
+#main .quote .wpcf7 form .form-group .form-control option{
+	color: #898989;
+}
+#main .responseQuote{
+	margin-bottom: 40px;
+	color: #898989;
+}
+#main .responseQuote h4{
+	font-weight: bold;
+	color: #898989;
+	margin: 0 0 30px;
+}
+#main .responseQuote p{}
+#main .responseQuote table{}
+#main .responseQuote table h3{
+	margin: 0;
+	font-weight: bold;
+	color: #666666;
+}
+#main .testimonials{
+	background-color: #f4f4f4;
+	padding: 20px;
+}
+#main .testimonials .holder{
+	background-color: #ffffff;
+	padding: 10px;
+	margin-bottom: 20px;
+	border:1px solid #ededee;
+	border-radius: 5px;
+}
+#main .testimonials .holder img{
+	padding-top: 10px;
+}
+#main .testimonials .holder span{
+	text-align: right;
+	display: block;
+	color: #999;
+}
+
+
+/*******************************
+** FOOTER **********************
+*******************************/
+footer{
+	background-color: #2D648D;
+	color: #ffffff;
+	padding: 20px;
+}
+footer p{
+	margin: 0;
+}
+footer p a{
+	color: #fff !important;
+	text-decoration: underline;
+}
+
+
+/*******************************
+**** MEDIA QUERIES *************
+*******************************/
+@media(max-width:767px){}
+@media(min-width:768px) and (max-width:991px){}
+@media(min-width:992px) and (max-width: 1199px){}
+@media (min-width: 1200px){}
